@@ -34,29 +34,24 @@ The API documentation is available at the following link:
 It includes all available endpoints such as authentication, tours, bookings, and users, along with request and response examples.
 
 ## Installation
-1. Clone the repository:
-   
-`git clone https://github.com/bavlysafwatt/natours.git`
 
-2. Install dependencies:
-   
-`npm install`
+1. Clone the repository:  
+   `git clone https://github.com/bavlysafwatt/natours.git`
+
+2. Install dependencies:  
+   `npm install`
 
 3. Create a `.env` file and configure the following variables:
-
-NODE_ENV=development
-
-PORT=3000
-
-DATABASE=`<your-database-url>`
-
-JWT_SECRET=`<your-secret>`
-
-JWT_EXPIRES_IN=90d
-
-4. Run the application:
-   
-`npm start`
+    ```env
+    NODE_ENV=development
+    PORT=3000
+    DATABASE=<your-database-url>
+    JWT_SECRET=<your-secret>
+    JWT_EXPIRES_IN=90d
+    ```
+    
+4. Run the application:  
+   `npm start`
 
 ## Notes
 - Ensure MongoDB is running before starting the application.
