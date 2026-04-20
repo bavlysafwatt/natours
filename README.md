@@ -35,20 +35,28 @@ It includes all available endpoints such as authentication, tours, bookings, and
 
 ## Installation
 1. Clone the repository:
-git clone https://github.com/bavlysafwatt/natours.git
+   
+`git clone https://github.com/bavlysafwatt/natours.git`
 
 2. Install dependencies:
-npm install
+   
+`npm install`
 
 3. Create a `.env` file and configure the following variables:
+
 NODE_ENV=development
+
 PORT=3000
-DATABASE=<your-database-url>
-JWT_SECRET=<your-secret>
+
+DATABASE=`<your-database-url>`
+
+JWT_SECRET=`<your-secret>`
+
 JWT_EXPIRES_IN=90d
 
 4. Run the application:
-npm start
+   
+`npm start`
 
 ## Notes
 - Ensure MongoDB is running before starting the application.
